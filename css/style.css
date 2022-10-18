@@ -1,0 +1,8 @@
+body.c {
+    text-align: center;
+    background: black;
+}
+
+body.c>h1 {
+    color: white;
+}
