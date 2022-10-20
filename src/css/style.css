@@ -1,8 +1,65 @@
 body.c {
     text-align: center;
-    background: black;
+    background: white;
 }
 
-body.c>h1 {
+div.head {
+    background: #0d6efd;
+    height: 20rem;
+    margin: 0;
+}
+
+div.head>h1 {
+    display: inline-block;
+    vertical-align: bottom;
     color: white;
+}
+
+div.F {
+    width: 500px;
+    margin-left: 25rem;
+}
+
+div.house {
+    display: inline-block;
+    background: #0d6efd;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+div.house>img {
+    width: 15rem;
+    align-items: center;
+}
+
+div.house>h6 {
+    display: inline-block;
+    align-items: flex-end;
+}
+
+div.b {
+    background: white;
+}
+
+div.b>a:link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+div.b>a:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
+div.b>a:hover {
+    text-decoration: none;
+    color: currentColor;
+}
+
+div.b>a:active {
+    text-decoration: none;
+    color: currentColor;
 }
