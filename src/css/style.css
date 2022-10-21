@@ -63,3 +63,13 @@ div.b>a:active {
     text-decoration: none;
     color: currentColor;
 }
+
+div.offerta {
+    background: #ff4000;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
