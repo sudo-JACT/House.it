@@ -11,7 +11,7 @@ div.head {
 
 div.footer {
     background: #0d6efd;
-    height: 3rem;
+    height: 20rem;
     color: white;
     text-align: left;
 }
@@ -51,13 +51,13 @@ div.login {
     align-items: center;
 }
 
-.center_footer {
+.smoler_footer {
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -99.9%);
+    transform: translate(-50%, 300%);
     background: #0d6efd;
-    height: 0rem;
+    height: 0%;
     width: 100%;
     margin: 0;
     color: white;
@@ -66,9 +66,18 @@ div.login {
     text-align: left;
 }
 
-.center_login {
+.center_caru {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -0%);
+}
+
+.caru {
+    width: 50rem;
+}
+
+.inb {
+    display: inline-block;
+    width: auto;
 }
