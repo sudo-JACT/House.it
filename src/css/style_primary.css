@@ -177,5 +177,24 @@ div.offerta {
 
 .invis_2 {
     display: inline-block;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
+}
+
+.invis_offert:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis_offert:hover {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis_offert:active {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis_offert {
+    display: inline-block;
 }
