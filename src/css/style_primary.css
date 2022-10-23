@@ -11,7 +11,7 @@ div.head {
 
 section.footer {
     background: #0d6efd;
-    height: 20rem;
+    height: 25rem;
     margin: 0;
     color: white;
     padding: 4rem 1rem;
@@ -22,7 +22,7 @@ section.footer>div.foo {
     display: inline-block;
     margin: 2rem;
     width: 10rem;
-    background: red;
+    /*background: red;*/
 }
 
 section.footer>h1 {
@@ -118,9 +118,64 @@ div.offerta {
     transform: translate(-50%, -50%);
 }
 
-section.footer>div.citys {
-    margin: 20rem;
-    width: 20rem;
-    display: block;
-    background: yellow;
+.citys {
+    background: #0d6efd;
+    position: relative;
+    display: inline-block;
+}
+
+.citys>h6 {
+    margin-left: 2rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.invis:link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis:hover {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis:active {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.invis_2:link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis_2:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis_2:hover {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis_2:active {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.invis_2 {
+    display: inline-block;
+    margin-bottom: 2rem;
 }
