@@ -117,3 +117,10 @@ div.offerta {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+section.footer>div.citys {
+    margin: 20rem;
+    width: 20rem;
+    display: block;
+    background: yellow;
+}
