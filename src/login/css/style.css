@@ -4,13 +4,13 @@ body.c {
 }
 
 div.head {
-    background: #0d6efd;
+    background: #2b6481;
     height: 5rem;
     margin: 0;
 }
 
 div.footer {
-    background: #0d6efd;
+    background: #2b6481;
     height: 3rem;
     color: white;
     text-align: left;
@@ -56,7 +56,7 @@ div.login {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -99.9%);
-    background: #0d6efd;
+    background: #2b6481;
     height: 0rem;
     width: 100%;
     margin: 0;
