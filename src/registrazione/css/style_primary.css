@@ -1,17 +1,16 @@
 body.c {
     text-align: center;
     background: white;
-    align-items: center;
 }
 
 div.head {
-    background: #2b6481;
+    background: #0d6efd;
     height: 20rem;
     margin: 0;
 }
 
 section.footer {
-    background: #2b6481;
+    background: #0d6efd;
     height: 25rem;
     margin: 0;
     color: white;
@@ -40,12 +39,12 @@ div.head>h1 {
 }
 
 div.F {
-    width: 50rem;
+    width: 500px;
 }
 
 div.house {
     display: inline-block;
-    background: #2b6481;
+    background: #0d6efd;
     padding: 2rem;
     border-radius: 1rem;
     margin-top: 1rem;
@@ -101,26 +100,26 @@ div.offerta {
 .center_nav_1 {
     position: relative;
     top: 50%;
-    left: 291%;
-    transform: translate(-50%, -3%);
+    left: 290%;
+    transform: translate(-35%, -3%);
 }
 
 .center_nav_2 {
     position: relative;
     top: 50%;
-    left: 291%;
-    transform: translate(-50%, -3%);
+    left: 290%;
+    transform: translate(-45%, -3%);
 }
 
 .center_f {
     position: relative;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .citys {
-    background: #2b6481;
+    background: #0d6efd;
     position: relative;
     display: inline-block;
 }
@@ -198,76 +197,4 @@ div.offerta {
 
 .invis_offert {
     display: inline-block;
-}
-
-.img_scale {
-    display: inline-block;
-    width: 50rem;
-    height: 25rem;
-}
-
-.center_inpt {
-    width: 30rem;
-    display: inline-block;
-    margin: 0;
-}
-
-.center_btn {
-    width: 5rem;
-    display: inline-block;
-    margin: 0;
-}
-
-.bg-c {
-    background-color: #c12400;
-    color: white;
-}
-
-.bg-cc {
-    background-color: #c12400;
-    color: white;
-}
-
-.bg-cc:hover {
-    background-color: #c12400;
-    color: white;
-}
-
-.bg-cc:active {
-    background-color: #c12400;
-    color: white;
-}
-
-.bg-cc:disabled {
-    background-color: #c12400;
-    color: white;
-}
-
-.bg-cc:enabled {
-    background-color: #c12400;
-    color: white;
-}
-
-.center_house {
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50rem;
-    display: inline-flex;
-    margin: 0;
-}
-
-.center_HO {
-    position: absolute;
-    top: 30%;
-    left: 76.5%;
-    transform: translate(-50%, -50%);
-    width: 50rem;
-    display: inline-flex;
-    margin: 0;
-}
-
-.center_HO>h1 {
-    color: white;
 }
