@@ -6,7 +6,7 @@ body.c {
 
 div.head {
     background: #2b6481;
-    height: 35rem;
+    height: 20rem;
     margin: 0;
 }
 
@@ -40,7 +40,7 @@ div.head>h1 {
 }
 
 div.F {
-    width: 500px;
+    width: 50rem;
 }
 
 div.house {
@@ -114,9 +114,9 @@ div.offerta {
 
 .center_f {
     position: relative;
-    top: 50%;
+    top: 8%;
     left: 50%;
-    transform: translate(-50%, -200%);
+    transform: translate(-50%, -50%);
 }
 
 .citys {
@@ -206,13 +206,68 @@ div.offerta {
     height: 25rem;
 }
 
-.center_c {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.center_inpt {
+    width: 30rem;
+    display: inline-block;
+    margin: 0;
+}
+
+.center_btn {
+    width: 5rem;
+    display: inline-block;
+    margin: 0;
 }
 
 .bg-c {
-    background-color: #2b6481;
+    background-color: #c12400;
+    color: white;
+}
+
+.bg-cc {
+    background-color: #c12400;
+    color: white;
+}
+
+.bg-cc:hover {
+    background-color: #c12400;
+    color: white;
+}
+
+.bg-cc:active {
+    background-color: #c12400;
+    color: white;
+}
+
+.bg-cc:disabled {
+    background-color: #c12400;
+    color: white;
+}
+
+.bg-cc:enabled {
+    background-color: #c12400;
+    color: white;
+}
+
+.center_house {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    display: inline-flex;
+    margin: 0;
+}
+
+.center_HO {
+    position: relative;
+    top: 7%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    display: inline-flex;
+    margin: 0;
+}
+
+.center_HO>h1 {
+    color: white;
 }
