@@ -1,5 +1,5 @@
 # ***PROGETTO SCOLASTICO***
-Frontend di un sito immobiliare\n
+Frontend di un sito immobiliare\newline
 ***Sviluppatori***:
 * Filieri Davide
 * Ligori Carlo
