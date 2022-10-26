@@ -47,7 +47,7 @@ div.b>a:link {
 }
 
 div.login {
-    width: 100rem;
+    width: 50rem;
     align-items: center;
 }
 
@@ -99,7 +99,7 @@ div.login {
 }
 
 .reg2 {
-    width: 100rem;
+    width: 50rem;
     margin: 0.5rem;
     display: inline-block;
 }
