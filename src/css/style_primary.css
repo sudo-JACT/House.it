@@ -40,7 +40,7 @@ div.head>h1 {
 }
 
 div.F {
-    width: 50rem;
+    width: 5rem;
 }
 
 div.house {
@@ -251,19 +251,19 @@ div.offerta {
 .center_house {
     position: relative;
     top: 30%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    width: 50rem;
+    width: 20rem;
     display: inline-flex;
     margin: 0;
 }
 
 .center_HO {
-    position: absolute;
-    top: 30%;
-    left: 76.5%;
+    position: relative;
+    top: 20.5%;
+    left: -3.5%;
     transform: translate(-50%, -50%);
-    width: 50rem;
+    width: 10rem;
     display: inline-flex;
     margin: 0;
 }
