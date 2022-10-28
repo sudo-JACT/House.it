@@ -101,15 +101,15 @@ div.offerta {
 .center_nav_1 {
     position: relative;
     top: 50%;
-    left: 291%;
-    transform: translate(-50%, -3%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .center_nav_2 {
     position: relative;
-    top: 50%;
-    left: 291%;
-    transform: translate(-50%, -3%);
+    top: 1%;
+    left: 77%;
+    transform: translate(-50%, -50%);
 }
 
 .center_f {
