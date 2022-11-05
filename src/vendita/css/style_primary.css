@@ -2,7 +2,6 @@ body.c {
     text-align: center;
     background: white;
     align-items: center;
-    font-family: "Open sans", sans-serif;
 }
 
 div.head {
@@ -100,19 +99,17 @@ div.offerta {
 }
 
 .center_nav_1 {
-    /*position: absolute;*/
-    display: inline-block;
-    /*top: 40%;
-    left: 93%;
-    transform: translate(-50%, -50%);*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .center_nav_2 {
-    /*position: absolute;*/
-    display: inline-block;
-    /*top: 40%;
-    left: 97%;
-    transform: translate(-50%, -50%);*/
+    position: relative;
+    top: 1%;
+    left: 77%;
+    transform: translate(-50%, -50%);
 }
 
 .center_f {
@@ -273,138 +270,4 @@ div.offerta {
 
 .center_HO>h1 {
     color: white;
-}
-
-
-/*#
-#
-#
-#
-#
-#
-#
-#
-#
-*/
-
-#header {
-    background: #c12400;
-    padding: 15px;
-}
-
-#header .logo {
-    font-size: 28px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-#header .logo a {
-    color: #ffffff;
-}
-
-.nav-link {
-    text-decoration: none;
-}
-
-.brand {
-    font-family: "Roboto", sans-serif;
-}
-
-.nav-menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.nav-menu>ul {
-    display: flex;
-}
-
-.nav-menu>ul>li {
-    position: relative;
-    white-space: nowrap;
-    padding: 10px 0 10px 22px;
-}
-
-.nav-menu a {
-    display: block;
-    position: relative;
-    color: rgba(255, 255, 255, 0.7);
-    transition: 0.3s;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: "Roboto", sans-serif;
-    padding: 0 4px;
-    text-transform: uppercase;
-}
-
-.nav-menu>ul>li a::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -6px;
-    left: 0;
-    background-color: #2b6481;
-    visibility: hidden;
-    width: 0px;
-    transition: all 0.3s ease-in-out;
-}
-
-.nav-menu a:hover::before,
-.nav-menu li:hover>a::before,
-.nav-menu .active>a::before {
-    visibility: visible;
-    width: 100%;
-}
-
-.nav-menu a:hover,
-.nav-menu .active>a,
-.nav-menu li:hover>a {
-    color: #ffffff;
-}
-
-.login-btn {
-    margin-left: 25px;
-    color: #ffffff;
-    border-radius: 4px;
-    padding: 6px 25px 8px 25px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 13px;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    border: 2px solid #000000;
-}
-
-.login-btn:hover {
-    background: #c12400;
-    color: #000000;
-}
-
-@media(max-width:768px) {
-    .login-btn {
-        margin: 0 40px 0 0;
-        padding: 6px 18px;
-    }
-}
-
-.mobile-nav-toggle {
-    position: fixed;
-    top: 18px;
-    right: 15px;
-    z-index: 9998;
-    border: 0;
-    background: none;
-    font-size: 24px;
-    transition: all 0.4s;
-    outline: none !important;
-    line-height: 1;
-    cursor: pointer;
-    text-align: right;
 }
