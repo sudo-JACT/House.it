@@ -2,7 +2,7 @@ body.c {
     text-align: center;
     background: white;
     align-items: center;
-    font-family: "Open sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 div.head {
@@ -305,7 +305,7 @@ div.offerta {
     color: #ffffff;
 }
 
-.nav-link {
+a {
     text-decoration: none;
 }
 
@@ -371,7 +371,7 @@ div.offerta {
     margin-left: 25px;
     color: #ffffff;
     border-radius: 4px;
-    padding: 6px 25px 8px 25px;
+    padding: 6px 10px;
     white-space: nowrap;
     transition: 0.3s;
     font-size: 13px;
@@ -379,12 +379,63 @@ div.offerta {
     text-transform: uppercase;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-    border: 2px solid #000000;
+    /*border: 2px solid #000000;*/
+    position: fixed;
+    top: 15px;
+    right: 10px;
+    /*color: rgba(255, 255, 255, 0.7);*/
+    /*border: 0;*/
+    /*background: none;*/
+    /*font-size: 24px;*/
+    /*transition: all 0.4s;*/
+    /*outline: none !important;*/
+    /*line-height: 1;
+    cursor: pointer;
+    text-align: right;*/
+}
+
+.login-lbl {
+    margin-left: 25px;
+    /*color: #ffffff;*/
+    border-radius: 4px;
+    padding: 12px 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    /*border: 2px solid #000000;*/
+    position: fixed;
+    top: 15px;
+    right: 10px;
+    /*border: 0;*/
+    /*background: none;*/
+    /*font-size: 24px;*/
+    /*transition: all 0.4s;*/
+    /*outline: none !important;*/
+    /*line-height: 1;
+    cursor: pointer;
+    text-align: right;*/
+    /*display: block;*/
+    /*position: relative;*/
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500;
+    /*font-family: "Roboto", sans-serif;*/
+    /*padding: 0 4px;*/
+    text-transform: uppercase;
 }
 
 .login-btn:hover {
     background: #c12400;
-    color: #000000;
+    color: #ffffff;
+}
+
+.login-lbl:hover {
+    color: #ffffff;
 }
 
 @media(max-width:768px) {
@@ -407,4 +458,45 @@ div.offerta {
     line-height: 1;
     cursor: pointer;
     text-align: right;
+}
+
+.mobile-nav-toggle i {
+    color: #ffffff;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9999;
+    overflow-y: auto;
+    background: #ffffff;
+    transition: ease-in-out 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.mobile-nav-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(17, 17, 17, 0.6);
+    overflow: hidden;
+    display: none;
+    transition: ease-in-out;
+}
+
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+    opacity: 1;
+    visibility: visible;
 }
