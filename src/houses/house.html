@@ -1,126 +1,230 @@
 <!DOCTYPE html>
+
 <html>
 
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <head>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
 
-        <link rel="stylesheet" href="../css/style_primary.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="icon" type="icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/style_primary.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="icon" href="../img/favicon.ico" />
 
-        <title>House.it</title>
+    <title>House.it</title>
 
-    </head>
+  </head>
 
-    <body class="c">
+  <body class="c">
+    <header id="header" class="fix-top">
+      <div class="d-flex align-items-center">
+        <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
 
-        <header id="header" class="fix-top">
+        <nav class="nav-menu d-lg-block">
+          <ul>
+            <li><a href="../index.html" target="_blank">Home</a></li>
+            <li>
+              <a href="../vendita/vendita.html" target="_blank">Vendita</a>
+            </li>
+            <li>
+              <a href="../vendita/vendita.html" target="_blank">Affitto</a>
+            </li>
+          </ul>
+        </nav>
 
-            <div class="d-flex align-items-center">
-
-                <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
-
-                <nav class="nav-menu d-lg-block">
-                    <ul>
-                        <li><a href="../index.html" target="_blank">Home</a></li>
-                        <li><a href="../vendita/vendita.html" target="_blank">Vendita</a></li>
-                        <li><a href="../vendita/vendita.html" target="_blank">Affitto</a></li>
-                        
-                    </ul>
-                
-                </nav>
-
-                <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
-                <a class="login-btn scrollto" href="../login/login.html" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
-                    </svg>
-                </a>
-
-            </div>
-            
-        </header>
-
-        <h1><strong>Lorem Ipsum</strong></h1>
-
-        <div class="caru center_caru">
-
-            <br />
-                
-            <div id="my_cr" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#my_cr" data-slide-to="0" class="active"></li>
-                    <li data-target="#my_cr" data-slide-to="1"></li>
-                    <li data-target="#my_cr" data-slide-to="2"></li>
-                    <li data-target="#my_cr" data-slide-to="3"></li>
-                    <li data-target="#my_cr" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img class="d-block w-100" src="../img/house_1.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="../img/house_2.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="../img/house_3.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="../img/house_4.png" alt="4 slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="../img/house_5.png" alt="5 slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#my_cr" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </a>
-                <a class="carousel-control-next" href="#my_cr" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </a>
-            </div>
-
-
-
-
-            
-
-        
-
-        </div>
-
-        <div>
-
-            <p class="inb">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
-        </div>
-
-        <a href="../index.html">
-
-            <div class="offerta">
-
-                <h1>&euro;550.00</h1>
-            
-            </div>
-
+        <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
+        <a class="login-btn scrollto" href="../login/login.html" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+          </svg>
         </a>
+      </div>
+    </header>
 
-        
 
-        <section class="smoler_footer">
+    <div class="caru center_caru">
+      <br />
 
-        </section>
-    </body>
+      <div id="my_cr" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#my_cr" data-slide-to="0" class="active"></li>
+          <li data-target="#my_cr" data-slide-to="1"></li>
+          <li data-target="#my_cr" data-slide-to="2"></li>
+          <li data-target="#my_cr" data-slide-to="3"></li>
+          <li data-target="#my_cr" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://pwm.im-cdn.it/image/1158075580/xxl.jpg" alt="First slide"/>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://pwm.im-cdn.it/image/1158075568/xxl.jpg" alt="Second slide"/>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://pwm.im-cdn.it/image/1158075582/xxl.jpg" alt="Third slide"/>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://pwm.im-cdn.it/image/1158075584/xxl.jpg" alt="4 slide"/>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://pwm.im-cdn.it/image/1158075586/xxl.jpg" alt="5 slide"/>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#my_cr" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#my_cr" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </div>
 
+    <h1 class="col">
+      <strong>Quadrilocale corso Matteotti 37, Cittadella, Torino</strong>
+    </h1>
+
+    <div class="inb_d">
+      <h5 class="">Descrizione</h5>
+
+      <hr class="col_2" />
+
+      <h6>PRESTIGIOSO APPARTAMENTO</h6>
+
+      <p class="inb">
+        Appartamento di 188mq composto da: ingresso di rappresentanza, salone
+        doppio con camino, disimpegno, tre camere (di cui una eventuale cucina),
+        servizio e possibilit&agrave; di crearne un secondo. Completano la
+        propriet&agrave; una cantina ed una soffitta.I pavimenti sono in parquet
+        originale e marmo &quot;Rosa Portogallo&quot;, l&rsquo;appartamento
+        &egrave; dotato di ampi armadi a muro, le porte interne sono originali,
+        a doppio battente in legno massello laccato, i serramenti esterni sono
+        in legno e vetro doppio, l&rsquo;oscuramento &egrave; ottenuto da
+        persiane blindate , il portoncino d&rsquo;ingresso &egrave; blindato,
+        riscaldamento centralizzato a radiatori. Gode di una doppia esposizione
+        a nord/ovest ed a sud/est. L&rsquo;appartamento si presenta in ottimo
+        stato manutentivo ed &egrave; sito al secondo piano di un edificio
+        d&rsquo;epoca di cinque piani , di tipo signorile dell&rsquo;Ottocento,
+        tra C.so Galileo Ferraris e C.so Vinzaglio, dotato di ascensore ed in
+        buone condizioni. La zona interessata &egrave; il Centro di Torino. Il
+        quartiere &egrave; residenziale, ricco di servizi, studi professionali
+        ed &egrave; ottimamente collegato da mezzi pubblici di trasporto:
+        fermata autobus, stazione ferroviaria Porta Susa e Metropolitana
+      </p>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="inb_d">
+      <h5 class="">Caratteristiche</h5>
+
+      <hr class="col_2" />
+
+      <div class="lis">
+        <dl>
+          <dt>RIFERIMENTO E DATA ANNUNCIO</dt>
+          <dd>16535/1 - 19/09/2022</dd>
+
+          <dt>CONTRATTO</dt>
+          <dd>Vendita</dd>
+
+          <dt>TIPOLOGIA</dt>
+          <dd>
+            Appartamento | Intera propriet&agrave; | Classe immobile signorile
+          </dd>
+
+          <dt>SUPERFICIE</dt>
+          <dd>188 m<sup>2</sup></dd>
+
+          <dt>LOCALI</dt>
+          <dd>4 (2 camere da letto, 2 altri), 2 bagni, cucina abitabile</dd>
+
+          <dt>PIANO</dt>
+          <dd>1 piano: 2&deg;, con ascensore</dd>
+
+          <dt>TOTALE PIANI EDIFICIO</dt>
+          <dd>5 piani</dd>
+
+          <dt>DISPONIBILIT&agrave;</dt>
+          <dd>Libero</dd>
+
+          <dt>ALTRE Caratteristiche</dt>
+          <dd class="d_2">
+            <br />
+            <br />
+            <span>Caminetto</span>
+            <span>Mansarda</span>
+            <span>Fibra ottica</span>
+            <span>VideoCitofono</span>
+            <br />
+            <span>Impianto di allarme</span>
+            <span>Porta blindata</span>
+            <span>Armadio a muro</span>
+            <span>Balcone</span>
+            <br />
+            <span>Impianto tv singolo</span>
+            <span>Arredato</span>
+            <span>Cantina</span>
+            <br />
+            <span>Infissi esterni in doppio vetro / legno</span>
+            <span>Esposizione doppia</span>
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="inb_d">
+      <h5>Costi</h5>
+
+      <hr class="col_2" />
+
+      <div class="lis">
+        <dl>
+          <dt>PREZZO</dt>
+          <dd>&euro; 630.000</dd>
+
+          <dt>SPESE CONDOMINIO</dt>
+          <dd>&euro; 150/mese</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="inb_d">
+      <h5>Planimetria</h5>
+
+      <hr class="col_2" />
+
+      <div id="my_cr" class="carousel slide" data-ride="carousel" style="text-align: center; align-items: center">
+        <ol class="carousel-indicators">
+          <li data-target="#my_cr" data-slide-to="0" class="active"></li>
+          <li data-target="#my_cr" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" style="text-align: center; align-items: center">
+          <div class="carousel-item active" style="text-align: center; align-items: center">
+            <img class="d-block res" src="https://pic.im-cdn.it/plan/89226288/m.jpg" alt="C.so Matteotti 37 SUB. 27" style="text-align: center; align-items: center"/>
+          </div>
+          <div class="carousel-item" style="text-align: center; align-items: center">
+            <img class="d-block res" src="https://pic.im-cdn.it/plan/89226284/m.jpg" alt="C.so Matteotti 37 SUB. 27" style="text-align: center; align-items: center"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="../index.html">
+      <div class="offerta">
+        <h1>&euro;550.00</h1>
+      </div>
+    </a>
+
+    <div class="smoler_footer"></div>
+  </body>
 
 </html>

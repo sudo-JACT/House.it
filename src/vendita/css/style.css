@@ -1,8 +1,3 @@
-body.c {
-    text-align: center;
-    background: white;
-}
-
 div.head {
     background: #0d6efd;
     height: 5rem;
@@ -73,15 +68,14 @@ div.login {
     transform: translate(-50%, -0%);
 }
 
-.btn-vendita{
-    background-color:white;
+.btn-vendita {
+    background-color: white;
 }
 
-.btn-vendita:hover{
-    background-color:white;
+.btn-vendita:hover {
+    background-color: white;
 }
 
-.btn-vendita:clicked{
-    background-color:white;
+.btn-vendita:clicked {
+    background-color: white;
 }
-

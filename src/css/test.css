@@ -91,7 +91,7 @@ a {
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     /*border: 2px solid #000000;*/
-    position: fixed;
+    position: absolute;
     top: 15px;
     right: 10px;
     /*color: rgba(255, 255, 255, 0.7);*/
@@ -118,7 +118,7 @@ a {
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     /*border: 2px solid #000000;*/
-    position: fixed;
+    position: absolute;
     top: 15px;
     right: 10px;
     /*border: 0;*/

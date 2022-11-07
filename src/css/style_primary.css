@@ -1,14 +1,38 @@
+*,
+* :after,
+* :before {
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+
 body.c {
     text-align: center;
-    background: white;
+    background: #121212;
     align-items: center;
     font-family: "Poppins", sans-serif;
+    overflow-wrap: break-word;
 }
 
 div.head {
     background: #2b6481;
     height: 20rem;
     margin: 0;
+}
+
+.color_ {
+    background: #121212;
+}
+
+.color_2 {
+    background: #121212;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.zip {
+    height: 10rem
 }
 
 section.footer {
@@ -380,7 +404,7 @@ a {
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     /*border: 2px solid #000000;*/
-    position: fixed;
+    position: absolute;
     top: 15px;
     right: 10px;
     /*color: rgba(255, 255, 255, 0.7);*/
@@ -407,7 +431,7 @@ a {
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     /*border: 2px solid #000000;*/
-    position: fixed;
+    position: absolute;
     top: 15px;
     right: 10px;
     /*border: 0;*/
