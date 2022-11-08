@@ -18,31 +18,34 @@
 
         
         <header id="header" class="fix-top">
+        <div class="d-flex align-items-center">
+            <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
 
-            <div class="d-flex align-items-center">
+            <nav class="nav-menu d-lg-block">
+            <ul>
+                <li>
+                <a href="../index.html" target="_blank">Home</a>
+                </li>
+                <li>
+                <a href="../vendita/vendita.html" target="_blank">Vendita</a>
+                </li>
+                <li>
+                <a href="../vendita/vendita.html" target="_blank">Affitto</a>
+                </li>
+            </ul>
+            </nav>
 
-                <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
+            <a class="login-IT-flag scollto" href="#"><img src="../img/IT-flag.png" alt="IT flag"></a>
+            <a class="login-UK-flag scollto" href="#"><img src="../img/UK-flag.png" alt="UK flag"></a>
 
-                <nav class="nav-menu d-lg-block">
-                    <ul>
-                        <li><a href="../index.html" target="_blank">Home</a></li>
-                        <li><a href="../vendita/vendita.html" target="_blank">Vendita</a></li>
-                        <li><a href="../vendita/vendita.html" target="_blank">Affitto</a></li>
-                        
-                    </ul>
-                
-                </nav>
-
-                <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
-                <a class="login-btn scrollto" href="../login/login.html" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
-                    </svg>
-                </a>
-
-            </div>
-            
+            <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
+            <a class="login-btn scrollto" href="../login/login.html" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+            </svg>
+            </a>
+        </div>
         </header>
 
         <div class="login center_reg">
@@ -53,25 +56,25 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" fill="blue" class="bi bi-facebook" viewBox="0 0 16 16">
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                   </svg>
-                  Facebook
+                  <text class="col">Facebook</text>
                 </a>
              <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fwww.immobiliare.it%2FsingleSignOn.php%3Faction%3DparseRequestToken%26mode%3Doauth%26accountType%3Dgoogle%26persistent%3D1&client_id=87841137944-o3laei4b57bqfepan57k6v11ddibqjc3.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=online&approval_prompt=auto&flowName=GeneralOAuthFlow" target="_blank" class="btn bg-ccc form-control">
                 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" fill="#ea4335" class="bi bi-google" viewBox="0 0 16 16">
                     <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
                   </svg>
-                  Google
+                  <text class="col">Google</text>
                 </a>
             </div>
-            <form class="reg2">
+            <form class="reg2 col">
                 <div class="form-group reg3">      
-                 <label class="center_2"><strong>Registrazione</strong></label>     
+                 <label class="center_2 col"><strong>Registrazione</strong></label>     
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome">
                 </div>
                 <div class="form-group reg3">                   
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Cognome">
                 </div>
             </form>
-            <div class="form-group im">
+            <div class="form-group im col">
                 <label for="exampleFormControlSelect1">Selezionare il sesso</label>
                 <select class="form-control center" id="exampleFormControlSelect1">
                 <option> </option>
@@ -82,22 +85,22 @@
             </div>
             <br />
             <div class="im">
-            <div class="form-group im">
+            <div class="form-group im col">
                 <label for="exampleFormControlInput1">Indirizzo email</label>
                 <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="Inserisci indirzzo email">
             </div>
-             <div class="form-group im">
+             <div class="form-group im col">
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
-            <div class="form-group im">
+            <div class="form-group im col">
                 <label for="exampleInputPassword1">Conferma password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
             </div>
             
         </form>
-            <form class="reg2">
+            <form class="reg2 col">
                 <div class="form-row">
             <div class="form-group reg3">
             <label for="inputCity">Provincia</label>
@@ -121,7 +124,7 @@
         </div>
         <br>
         <div class="im">
-        <div class="form-group  chk">
+        <div class="form-group  chk col">
             <div class="form-check ">
             <input class="form-check-input " type="checkbox" id="gridCheck">
             <label class="form-check-label " for="gridCheck">
@@ -129,7 +132,7 @@
             </label>
             </div>
         </div>
-        <div class="form-group  chk">
+        <div class="form-group  chk col">
             <div class="form-check ">
             <input class="form-check-input " type="checkbox" id="gridCheck">
             <label class="form-check-label " for="gridCheck">
@@ -137,7 +140,7 @@
             </label>
             </div>
         </div>
-        <div class="form-group  chk">
+        <div class="form-group  chk col">
             <div class="form-check ">
             <input class="form-check-input " type="checkbox" id="gridCheck">
             <label class="form-check-label " for="gridCheck">
@@ -145,12 +148,12 @@
             </label>
             </div>
         </div>
-        <form action="../index.html">
+        <form action="../login/login.html">
     
             <button type="submit" class="btn bg-cc center im">Conferma</button>
 
         </form>
-        <label>Hai gi&agrave; un account su House.it? <a href="../login/login.html">Accedi</a></label>
+        <label class="col">Hai gi&agrave; un account su House.it? <a href="../login/login.html">Accedi</a></label>
      </div>
     </div>
 

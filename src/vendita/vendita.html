@@ -27,15 +27,18 @@
   </head>
 
   <body class="c">
+    
     <header id="header" class="fix-top">
       <div class="d-flex align-items-center">
         <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
 
         <nav class="nav-menu d-lg-block">
           <ul>
-            <li><a href="./index.html" target="_blank">Home</a></li>
+            <li>
+              <a href="../index.html" target="_blank">Home</a>
+            </li>
             <li class="active">
-              <a href="./vendita/vendita.html" target="_blank">Vendita</a>
+              <a href="./vendita.html" target="_blank">Vendita</a>
             </li>
             <li>
               <a href="./vendita/vendita.html" target="_blank">Affitto</a>
@@ -43,36 +46,33 @@
           </ul>
         </nav>
 
-        <a class="login-lbl scrollto" href="../login/login.html" target="_blank"
-          >Login</a
-        >
-        <a
-          class="login-btn scrollto"
-          href="../login/login.html"
-          target="_blank"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
-            fill="currentColor"
-            class="bi bi-person-circle"
-            viewBox="0 0 16 16"
-          >
+        <a class="login-IT-flag scollto" href="#"><img src="../img/IT-flag.png" alt="IT flag"></a>
+        <a class="login-UK-flag scollto" href="#"><img src="../img/UK-flag.png" alt="UK flag"></a>
+
+        <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
+        <a class="login-btn scrollto" href="../login/login.html" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-            <path
-              fill-rule="evenodd"
-              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-            ></path>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
           </svg>
         </a>
       </div>
     </header>
 
     <div class="head">
-      <div class="dropdown">
+      <form class="d-flex barra_ricerca" role="search">
+        <input
+          class="form-control me-2 col_3"
+          type="search"
+          placeholder="Cerca la tua casa ideale"
+          aria-label="Search"
+        />
+        <button class="btn bg-cc" type="submit">Cerca</button>
+      </form>
+
+      <div class="dropdown selezione">
         <button
-          class="btn btn-vendita dropdown-toggle"
+          class="btn bg-cc"
           type="button"
           id="dropdownMenuButton"
           data-toggle="dropdown"
@@ -81,14 +81,14 @@
         >
           Filtro vendite
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="./vendita.html"
+        <div class="dropdown-menu bg-cc" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item col" href="./vendita.html"
             >Dal prezzo pi&ugrave; alto</a
           >
-          <a class="dropdown-item" href="./vendita.html"
+          <a class="dropdown-item col" href="./vendita.html"
             >Dal prezzo pi&ugrave; basso</a
           >
-          <a class="dropdown-item" href="./vendita.html"
+          <a class="dropdown-item col" href="./vendita.html"
             >In ordine alfabetico</a
           >
         </div>
@@ -129,7 +129,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -143,13 +143,14 @@
           <div class="card-body">
             <h5 class="card-title">Appartamento a Lovere Vista Lago</h5>
             <p class="card-text">
-              L’appartamento &egrave; disposto su tre livelli; al piano terra si
+              L&rsquo;appartamento; disposto su tre livelli; al piano terra si
               trova una spaziosa zona living con cucina abitabile. Dalla zona
-              living si puo’ accedere all’esterno tramite una magnifica terrazza
-              dalla quale si puo’ godere appieno della vista lago. Completano il
-              piano il bagno di servizio ed un guarda roba. Tramite una scala
-              interna si accede alla zona notte, caratterizzata dalle quattro
-              spaziose camere da letto ed un bagno di servizio.
+              living si pu&ograve; accedere all&rsquo;esterno tramite una
+              magnifica terrazza dalla quale si pu&ograve; godere appieno della
+              vista lago. Completano il piano il bagno di servizio ed un guarda
+              roba. Tramite una scala interna si accede alla zona notte,
+              caratterizzata dalle quattro spaziose camere da letto ed un bagno
+              di servizio.
             </p>
             <a href="../houses/house.html" target="_blank" class="btn bg-cc"
               >&euro; 55.000</a
@@ -159,7 +160,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -178,9 +179,9 @@
               Proponiamo un luminoso appartamento in corte al primo piano con
               accesso indipendente composto da ingresso/corridoio, cucina
               abitabile, salone doppio con balconi, due ampie e luminose camere
-              da letto e due bagni. L'immobile &egrave; dotato di una scala a
-              chiocciola posizionata in cucina che conduce ad un terrazzo di
-              circa 25 mq con due sottotetti
+              da letto e due bagni. L&rsquo;immobile &egrave; dotato di una
+              scala a chiocciola posizionata in cucina che conduce ad un
+              terrazzo di circa 25 mq con due sottotetti
             </p>
             <a href="../houses/house.html" target="_blank" class="btn bg-cc"
               >&euro; 35.000</a
@@ -190,7 +191,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -206,20 +207,21 @@
             <p class="card-text">
               Proponiamo a Maglie in vendita un esclusiva villa di circa 1100 mq
               immersa in un giardino di circa 4.200 mq con bellissime piscine ed
-              idromassaggio esterno, solarium e patio. La proprietà in oggetto
-              &egrave; una prestigiosa villa unifamiliare che si compone di solo
-              piano terra, composto da ingresso, soggiorno/salone, zona pranzo,
-              cucina, quattro camere da letto, tre bagni e un ripostiglio.
+              idromassaggio esterno, solarium e patio. La propriet&agrave; in
+              oggetto &egrave; una prestigiosa villa unifamiliare che si compone
+              di solo piano terra, composto da ingresso, soggiorno/salone, zona
+              pranzo, cucina, quattro camere da letto, tre bagni e un
+              ripostiglio.
             </p>
             <a href="../houses/house.html" target="_blank" class="btn bg-cc"
-              >&euro; 190.000</a
+              >&euro; 300.000</a
             >
           </div>
         </div>
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -235,17 +237,18 @@
               Villa in Vendita in Strada Comunale Spezzaferri 16 a Cavallino
             </h5>
             <p class="card-text">
-              A Cavallino, a pochi chilometri da Lecce, proponiamo SPLENDIDA
-              VILLA con ampio giardino. L'abitazione &egrave; distribuita su tre
-              livelli. Al piano terra troviamo la zona giorno composta da un
-              ampio e luminoso soggiorno, cucina abitabile, tinello, bagno e
-              lavanderia, oltre ad un vano da adibire in base alle vostre
-              esigenze. Una comoda scala interna conduce al primo piano dove
-              sono presenti due camere da letto matrimoniali, studio, bagno,
-              disimpegno e un vano pluriuso. Da una scala a chiocciola, in ferro
-              battuto, si accede ad vano tecnico composto da soggiorno-cucina,
-              camera da letto con uscita su ampio terrazzo con affaccio sul
-              giardino, servizio e ripostiglio.
+              A Cavallino, a pochi chilometri da Lecce, proponiamo
+              <strong>SPLENDIDA VILLA</strong> con ampio giardino.
+              L&rsquo;abitazione &egrave; distribuita su tre livelli. Al piano
+              terra troviamo la zona giorno composta da un ampio e luminoso
+              soggiorno, cucina abitabile, tinello, bagno e lavanderia, oltre ad
+              un vano da adibire in base alle vostre esigenze. Una comoda scala
+              interna conduce al primo piano dove sono presenti due camere da
+              letto matrimoniali, studio, bagno, disimpegno e un vano pluriuso.
+              Da una scala a chiocciola, in ferro battuto, si accede ad vano
+              tecnico composto da soggiorno-cucina, camera da letto con uscita
+              su ampio terrazzo con affaccio sul giardino, servizio e
+              ripostiglio.
             </p>
             <a href="../houses/house.html" target="_blank" class="btn bg-cc"
               >&euro; 150.000</a
@@ -255,7 +258,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -268,7 +271,7 @@
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">
-              Villa in Vendita in Via molise a Corigliano d'Otranto
+              Villa in Vendita in Via molise a Corigliano d&rsquo;Otranto
             </h5>
             <p class="card-text">
               Proponiamo in vendita magnifica villa disposta su 3 livelli Al suo
@@ -288,7 +291,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -316,7 +319,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -332,10 +335,10 @@
               Villa in Vendita in Contrada Cafieli a Racale
             </h5>
             <p class="card-text">
-              Villa di 500mq con circa 1500 mq di terreno posta su più livelli;
-              composta al piano terra da un garage di circa 160mq; al piano
-              primo composto da ingresso, soggiorno di ampia metratura, tre
-              camere da letto matrimoniali, due bagni, ripostiglio, cucina
+              Villa di 500mq con circa 1500 mq di terreno posta su pi&ugrave;
+              livelli; composta al piano terra da un garage di circa 160mq; al
+              piano primo composto da ingresso, soggiorno di ampia metratura,
+              tre camere da letto matrimoniali, due bagni, ripostiglio, cucina
               abitabile con accesso ad una veranda abitabile; dal soggiorno si
               accede ad un balcone con vista panoramica.
             </p>
@@ -347,7 +350,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -363,16 +366,16 @@
               Casa Indipendente in Vendita in Via Zara 24 a Botrugno
             </h5>
             <p class="card-text">
-              l'immobile si compone dal piano terra, dove sviluppa una metratura
-              di circa 165 mq, che si articolano in salotto, cucina, due camere
-              da letto, bagno, ripostiglio, garage ampio e luminoso e un cortile
-              esterno, alcuni dei quali, dalle volte a stella tipiche della
-              tradizione architettonica salentina e dai pavimenti in pastina
-              decorata perfettamente conservati. Il piano primo sviluppa una
-              metratura di circa 200 mq, che si articolano in ampio soggiorno,
-              due comode e luminose camere da letto, bagno con vasca, tinello
-              con ampio camino e ripostiglio oltre ad una generosa terrazza a
-              livello.
+              l&rsquo;immobile si compone dal piano terra, dove sviluppa una
+              metratura di circa 165 mq, che si articolano in salotto, cucina,
+              due camere da letto, bagno, ripostiglio, garage ampio e luminoso e
+              un cortile esterno, alcuni dei quali, dalle volte a stella tipiche
+              della tradizione architettonica salentina e dai pavimenti in
+              pastina decorata perfettamente conservati. Il piano primo sviluppa
+              una metratura di circa 200 mq, che si articolano in ampio
+              soggiorno, due comode e luminose camere da letto, bagno con vasca,
+              tinello con ampio camino e ripostiglio oltre ad una generosa
+              terrazza a livello.
             </p>
             <a href="../houses/house.html" target="_blank" class="btn bg-cc"
               >&euro; 60.000</a
@@ -382,7 +385,7 @@
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100rem; margin: 1rem">
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
       <div class="row no-gutters">
         <div class="col-md-4">
           <img
@@ -399,9 +402,9 @@
             </h5>
             <p class="card-text">
               In zona residenziale e panoramica, a pochi minuti dal centro della
-              città, proponiamo in vendita villa unifamiliare di circa 400mq. La
-              villa &egrave; disposta su due piani, già divisa in due
-              appartamenti speculari e completamente indipendenti. Ogni
+              citt&agrave;, proponiamo in vendita villa unifamiliare di circa
+              400mq. La villa &egrave; disposta su due piani, gi&agrave; divisa
+              in due appartamenti speculari e completamente indipendenti. Ogni
               soluzione &egrave; composta da ampio e luminoso soggiorno, sala da
               pranzo con camino, cucina, tre camere da letto, bagno. Il piano
               terra dispone di portico esclusivo con affaccio diretto sul

@@ -1,8 +1,3 @@
-body.c {
-    text-align: center;
-    background: white;
-}
-
 div.head {
     background: #2b6481;
     height: 5rem;
@@ -71,4 +66,8 @@ div.login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -0%);
+}
+
+.col {
+    color: #ffffff !important;
 }

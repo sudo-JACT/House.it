@@ -13,6 +13,7 @@ body.c {
     align-items: center;
     font-family: "Poppins", sans-serif;
     overflow-wrap: break-word;
+    color: #ffffff;
 }
 
 div.head {
@@ -523,4 +524,74 @@ a {
 .mobile-nav-active .mobile-nav {
     opacity: 1;
     visibility: visible;
+}
+
+.login-IT-flag {
+    margin-left: 25px;
+    /*color: #ffffff;*/
+    border-radius: 4px;
+    padding: 12px 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    /*border: 2px solid #000000;*/
+    position: absolute;
+    top: 15px;
+    right: 104px;
+    /*border: 0;*/
+    /*background: none;*/
+    /*font-size: 24px;*/
+    /*transition: all 0.4s;*/
+    /*outline: none !important;*/
+    /*line-height: 1;
+    cursor: pointer;
+    text-align: right;*/
+    /*display: block;*/
+    /*position: relative;*/
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500;
+    /*font-family: "Roboto", sans-serif;*/
+    /*padding: 0 4px;*/
+    text-transform: uppercase;
+}
+
+.login-UK-flag {
+    margin-left: 25px;
+    /*color: #ffffff;*/
+    border-radius: 4px;
+    padding: 12px 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    /*border: 2px solid #000000;*/
+    position: absolute;
+    top: 15px;
+    right: 70px;
+    /*border: 0;*/
+    /*background: none;*/
+    /*font-size: 24px;*/
+    /*transition: all 0.4s;*/
+    /*outline: none !important;*/
+    /*line-height: 1;
+    cursor: pointer;
+    text-align: right;*/
+    /*display: block;*/
+    /*position: relative;*/
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500;
+    /*font-family: "Roboto", sans-serif;*/
+    /*padding: 0 4px;*/
+    text-transform: uppercase;
 }

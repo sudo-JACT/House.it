@@ -1,75 +1,93 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
 
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        
-        <link rel="stylesheet" href="../css/style_primary.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="icon" type="icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/style_primary.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="icon" href="../img/favicon.ico" />
 
-        <title>Login</title>
+    <title>Login</title>
+  </head>
 
-    </head>
+  <body class="c">
+    <header id="header" class="fix-top">
+      <div class="d-flex align-items-center">
+        <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
 
-    <body class="c">
+        <nav class="nav-menu d-lg-block">
+          <ul>
+            <li>
+              <a href="../index.html" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="../vendita/vendita.html" target="_blank">Vendita</a>
+            </li>
+            <li>
+              <a href="../vendita/vendita.html" target="_blank">Affitto</a>
+            </li>
+          </ul>
+        </nav>
 
-        <header id="header" class="fix-top">
+        <a class="login-IT-flag scollto" href="#"><img src="../img/IT-flag.png" alt="IT flag"/></a>
+        <a class="login-UK-flag scollto" href="#"><img src="../img/UK-flag.png" alt="UK flag"/></a>
 
-            <div class="d-flex align-items-center">
+        <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
+        <a class="login-btn scrollto" href="../login/login.html" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+          </svg>
+        </a>
+      </div>
+    </header>
 
-                <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
+    <div class="login center_login">
+      <br />
 
-                <nav class="nav-menu d-lg-block">
-                    <ul>
-                        <li><a href="../index.html" target="_blank">Home</a></li>
-                        <li><a href="../vendita/vendita.html" target="_blank">Vendita</a></li>
-                        <li><a href="../vendita/vendita.html" target="_blank">Affitto</a></li>
-                        
-                    </ul>
-                
-                </nav>
-
-                <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
-                <a class="login-btn scrollto" href="../login/login.html" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
-                    </svg>
-                </a>
-
-            </div>
-            
-        </header>
-        
-
-        <div class="login center_login">
-
-        <br />
-            
-        <form action="../index.html">
-
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-            </div>
-            <br />
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              <br />
-              <a href="../password/password.html" target="_blank">Hai dimenticato la tua Password?</a>
-            </div>
-            <br />
-            <button type="submit" class="btn bg-cc">Accedi</button>
-            <br />
-            <small id="emailHelp" class="form-text text-muted">Se non hai ancora un account <a href="../registrazione/registrazione.html">Registrati</a></small>
-          </form>
-
+      <form action="../index.html">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Email"
+          />
         </div>
-        
-    </body>
-
-
+        <br />
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+          />
+          <br />
+          <a href="../password/password.html" target="_blank"
+            >Hai dimenticato la tua Password?</a
+          >
+        </div>
+        <br />
+        <button type="submit" class="btn bg-cc">Accedi</button>
+        <br />
+        <small id="emailHelp" class="form-text text-muted col"
+          >Se non hai ancora un account
+          <a href="../registrazione/registrazione.html">Registrati</a></small
+        >
+      </form>
+    </div>
+  </body>
 </html>

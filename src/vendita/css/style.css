@@ -1,6 +1,6 @@
 div.head {
     background: #0d6efd;
-    height: 5rem;
+    height: 6rem;
     margin: 0;
 }
 
@@ -78,4 +78,33 @@ div.login {
 
 .btn-vendita:clicked {
     background-color: white;
+}
+
+.barra_ricerca {
+    width: 19rem;
+    left: 10px;
+    position: absolute;
+    margin-top: 0.5rem;
+}
+
+.selezione {
+    top: 125px;
+    left: 10px;
+    position: absolute;
+}
+
+.col {
+    color: #ffffff !important;
+}
+
+.col_2 {
+    color: #121212;
+}
+
+.col_3 {
+    background: #121212;
+}
+
+.bg-cc {
+    color: #ffffff;
 }

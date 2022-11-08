@@ -1,278 +1,413 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
 
-    <head>
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style_primary.css" />
+    <link rel="icon" type="icon" href="/img/favicon.ico" />
 
-        <link rel="stylesheet" href="./css/style_primary.css">
-        <link rel="icon" type="icon" href="/img/favicon.ico">
+    <title>House.it</title>
+  </head>
 
-        <title>House.it</title>
+  <body class="c">
+    <header id="header" class="fix-top">
+      <div class="d-flex align-items-center">
+        <h1 class="logo brand"><a href="./index.html">House.it</a></h1>
 
-    </head>
+        <nav class="nav-menu d-lg-block">
+          <ul>
+            <li class="active">
+              <a href="./index.html" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="./vendita/vendita.html" target="_blank">Vendita</a>
+            </li>
+            <li>
+              <a href="./vendita/vendita.html" target="_blank">Affitto</a>
+            </li>
+          </ul>
+        </nav>
 
-    <body class="c">
+        <a class="login-IT-flag scollto" href="#"><img src="./img/IT-flag.png" alt="IT flag"></a>
+        <a class="login-UK-flag scollto" href="#"><img src="./img/UK-flag.png" alt="UK flag"></a>
 
-        <header id="header" class="fix-top">
+        <a class="login-lbl scrollto" href="./login/login.html" target="_blank">Login</a>
+        <a class="login-btn scrollto" href="./login/login.html" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+          </svg>
+        </a>
+      </div>
+    </header>
 
-            <div class="d-flex align-items-center">
+    <div class="head">
+      <div class="center_house">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="100"
+          height="100"
+          fill="white"
+          class="bi bi-house-door-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+          />
+        </svg>
+      </div>
 
-                <h1 class="logo brand"><a href="./index.html">House.it</a></h1>
+      <div class="center_HO">
+        <h1 class="brand">OUSE.it</h1>
+      </div>
 
-                <nav class="nav-menu d-lg-block">
-                    <ul>
-                        <li class="active"><a href="./index.html" target="_blank">Home</a></li>
-                        <li><a href="./vendita/vendita.html" target="_blank">Vendita</a></li>
-                        <li><a href="./vendita/vendita.html" target="_blank">Affitto</a></li>
-                        
-                    </ul>
-                </nav>
-
-                <a class="login-lbl scrollto" href="./login/login.html" target="_blank">Login</a>
-                <a class="login-btn scrollto" href="./login/login.html" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
-                    </svg>
-                </a>
-
-            </div>
-            
-        </header>
-        
-        <div class="head">
-
-            <div class="center_house">
-    
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="white" class="bi bi-house-door-fill" viewBox="0 0 16 16">
-                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
-                </svg>
-
-            </div>
-
-            <div class="center_HO">
-
-                <h1 class="brand">OUSE.it</h1>
-
-            </div>
-            
-
-            <div class="center_f">
-
-                <div class="center_inpt">
-                    <input class="form-control mr-sm-2 color_" type="search" placeholder="Cerca la tua casa ideale" aria-label="Search">
-                </div>
-
-                <div class="center_btn">
-                    <button class="btn bg-cc my-2 my-sm-0" type="submit" style="margin-top: 2rem">Cerca</button>
-                </div>
-
-            </div>
-                
-
+      <div class="center_f">
+        <div class="center_inpt">
+          <input
+            class="form-control mr-sm-2 color_"
+            type="search"
+            placeholder="Cerca la tua casa ideale"
+            aria-label="Search"
+          />
         </div>
 
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="https://www.house.it/wp-content/uploads/2022/04/casa-semi-indipendente-riva-di-solto-1-1110x623.jpeg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Casa con vista sul Lago d&rsquo;Iseo</h5>
-                <p class="card-text">Splendida propriet&agrave; con vista sul lago d&rsquo;Iseo, ristrutturata...</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
+        <div class="center_btn">
+          <button
+            class="btn bg-cc my-2 my-sm-0"
+            type="submit"
+            style="margin-top: 2rem"
+          >
+            Cerca
+          </button>
         </div>
+      </div>
+    </div>
 
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="https://www.house.it/wp-content/uploads/2022/04/casa-semi-indipendente-riva-di-solto-1-1110x623.jpeg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Casa con vista sul Lago d&rsquo;Iseo</h5>
+        <p class="card-text">
+          Splendida propriet&agrave; con vista sul lago d&rsquo;Iseo,
+          ristrutturata...
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
 
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="https://www.house.it/wp-content/uploads/2019/06/3-1110x623.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Appartamento a Lovere Vista Lago</h5>
-                <p class="card-text">L&rsquo;appartamento Ã¨ disposto su tre livelli...</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="https://www.house.it/wp-content/uploads/2019/06/3-1110x623.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Appartamento a Lovere Vista Lago</h5>
+        <p class="card-text">
+          L&rsquo;appartamento Ã¨ disposto su tre livelli...
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img class="card-img-top zip"
+      src="https://images-1.casa.it/1052x798/listing/5c1ad0675c521a4e13c04b7d44eba66e""
+      alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="https://pwm.im-cdn.it/image/1140118186/cover-m-c.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="card color_2"
+      style="width: 18rem; display: inline-block; margin: 1rem"
+    >
+      <img
+        class="card-img-top zip"
+        src="./img/gta_house.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
+        <p class="card-text">
+          Casa Indipendente in Vendita in Via Roma 165 a Alezio.
+        </p>
+        <a href="./houses/house.html" target="_blank" class="btn bg-cc"
+          >&euro; 393.988</a
+        >
+      </div>
+    </div>
+
+    <section class="footer">
+      <h1>Case su House.it</h1>
+
+      <a class="invis" href="vendita" target="_blank">
+        <div class="foo">
+          <h5><strong>Vendita</strong></h5>
         </div>
+      </a>
 
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
+      <a class="invis" href="affitasi" target="_blank">
+        <div class="foo">
+          <h5><strong>Affitto</strong></h5>
         </div>
+      </a>
 
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
+      <a class="invis_2" href="vendita" target="_blank">
+        <div class="citys">
+          <h6>Torino</h6>
+          <h6>Milano</h6>
+          <h6>Roma</h6>
+          <h6>Bologna</h6>
+          <h6>Firenze</h6>
+          <h6>Genova</h6>
+          <h6>Palermo</h6>
+          <h6>Verona</h6>
+          <h6>Venezia</h6>
+          <h6>Padova</h6>
+          <h6>Bari</h6>
+          <h6>Parma</h6>
+          <h6>Taranto</h6>
+          <h6>Perugia</h6>
+          <h6>Rimini</h6>
+          <h6>Ferrara</h6>
+          <h6>Sassari</h6>
+          <h6>Bergamo</h6>
+          <h6>Trento</h6>
+          <h6>Bolzano</h6>
+          <h6>Lecce</h6>
+          <h6>La Spezia</h6>
+          <h6>Pisa</h6>
+          <h6>Lucca</h6>
+          <h6>Pistoia</h6>
+          <h6>Catanzaro</h6>
+          <h6>Treviso</h6>
+          <h6>Como</h6>
+          <h6>Caserta</h6>
+          <h6>Pavia</h6>
+          <h6>Cremona</h6>
+          <h6>L&rsquo;Aquila</h6>
+          <h6>Massa</h6>
+          <h6>Viterbo</h6>
+          <h6>Potenza</h6>
+          <h6>Trapani</h6>
+          <h6>Cosenza</h6>
+          <h6>Viareggio</h6>
+          <h6>Carrara</h6>
+          <h6>Olbia</h6>
+          <h6>Vigevano</h6>
         </div>
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
-
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="https://images-1.casa.it/1052x798/listing/5c1ad0675c521a4e13c04b7d44eba66e"" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="https://pwm.im-cdn.it/image/1140118186/cover-m-c.jpg" alt="Card image cap" >
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
-
-        <div class="card color_2" style="width: 18rem; display: inline-block; margin: 1rem">
-            <img class="card-img-top zip" src="./img/gta_house.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Villa in Vendita in SP361 a Alezio</h5>
-                <p class="card-text">Casa Indipendente in Vendita in Via Roma 165 a Alezio.</p>
-                <a href="./houses/house.html" target="_blank" class="btn bg-cc">&euro; 393.988</a>
-            </div>
-        </div>
- 
-
-
-        <section class="footer">
-
-           <h1>Case su House.it</h1>
-
-           <a class="invis" href="vendita" target="_blank">
-                <div class="foo">
-
-                    <h5><strong>Vendita</strong></h5>
-            
-                </div>
-            </a>
-
-
-           <a class="invis" href="affitasi" target="_blank">
-                <div class="foo">
-
-                    <h5><strong>Affitto</strong></h5>
-            
-                </div>
-            </a>
-
-           <a class="invis_2" href="vendita" target="_blank">
-                <div class="citys">
-
-                    <h6>Torino</h6>
-                    <h6>Milano</h6>
-                    <h6>Roma</h6>
-                    <h6>Bologna</h6>
-                    <h6>Firenze</h6>
-                    <h6>Genova</h6>
-                    <h6>Palermo</h6>
-                    <h6>Verona</h6>
-                    <h6>Venezia</h6>
-                    <h6>Padova</h6>
-                    <h6>Bari</h6>
-                    <h6>Parma</h6>
-                    <h6>Taranto</h6>
-                    <h6>Perugia</h6>
-                    <h6>Rimini</h6>
-                    <h6>Ferrara</h6>
-                    <h6>Sassari</h6>
-                    <h6>Bergamo</h6>
-                    <h6>Trento</h6>
-                    <h6>Bolzano</h6>
-                    <h6>Lecce</h6>
-                    <h6>La Spezia</h6>
-                    <h6>Pisa</h6>
-                    <h6>Lucca</h6>
-                    <h6>Pistoia</h6>
-                    <h6>Catanzaro</h6>
-                    <h6>Treviso</h6>
-                    <h6>Como</h6>
-                    <h6>Caserta</h6>
-                    <h6>Pavia</h6>
-                    <h6>Cremona</h6>
-                    <h6>L'Aquila</h6>
-                    <h6>Massa</h6>
-                    <h6>Viterbo</h6>
-                    <h6>Potenza</h6>
-                    <h6>Trapani</h6>
-                    <h6>Cosenza</h6>
-                    <h6>Viareggio</h6>
-                    <h6>Carrara</h6>
-                    <h6>Olbia</h6>
-                    <h6>Vigevano</h6>
-                
-                </div>
-            </a>
-
-            
-        </section>
-        
-
-    </body>
-
-
-
-
-
-
-
-
+      </a>
+    </section>
+  </body>
 </html>
