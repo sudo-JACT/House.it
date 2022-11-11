@@ -1,0 +1,110 @@
+div.head {
+    background: #0d6efd;
+    height: 6rem;
+    margin: 0;
+}
+
+div.footer {
+    background: #0d6efd;
+    height: 3rem;
+    color: white;
+    text-align: left;
+}
+
+div.footer>div.foo {
+    display: inline-block;
+    margin: 2rem;
+    width: 10rem;
+    background: red;
+}
+
+div.footer>h1 {
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 1.142857;
+}
+
+div.head>h1 {
+    display: inline-block;
+    vertical-align: bottom;
+    color: white;
+}
+
+div.F {
+    width: 500px;
+    margin-left: 25rem;
+}
+
+div.b>a:link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+div.login {
+    width: 20rem;
+    align-items: center;
+}
+
+.center_footer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -99.9%);
+    background: #0d6efd;
+    height: 0rem;
+    width: 100%;
+    margin: 0;
+    color: white;
+    padding: 2.73rem 1rem;
+    display: block;
+    text-align: left;
+}
+
+.center_login {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.btn-vendita {
+    background-color: white;
+}
+
+.btn-vendita:hover {
+    background-color: white;
+}
+
+.btn-vendita:clicked {
+    background-color: white;
+}
+
+.barra_ricerca {
+    width: 19rem;
+    left: 10px;
+    position: absolute;
+    margin-top: 0.5rem;
+}
+
+.selezione {
+    top: 125px;
+    left: 10px;
+    position: absolute;
+}
+
+.col {
+    color: #ffffff !important;
+}
+
+.col_2 {
+    color: #121212;
+}
+
+.col_3 {
+    background: #121212;
+}
+
+.bg-cc {
+    color: #ffffff;
+}

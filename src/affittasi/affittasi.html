@@ -1,0 +1,310 @@
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style_primary.css" />
+    <!--<link rel="stylesheet" href="./css/style_primary.css">-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="icon" href="/img/favicon.ico" />
+
+    <title>Affittasi</title>
+  </head>
+
+  <body class="c">
+    
+    <header id="header" class="fix-top">
+      <div class="d-flex align-items-center">
+        <h1 class="logo brand"><a href="../index.html">House.it</a></h1>
+
+        <nav class="nav-menu d-lg-block">
+          <ul>
+            <li>
+              <a href="../index.html" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="../vendita/vendita.html" target="_blank">Vendita</a>
+            </li>
+            <li class="active">
+              <a href="./affittasi.html" target="_blank">Affitto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="login-IT-flag scollto" href="#"><img src="../img/IT-flag.png" alt="IT flag"></a>
+        <a class="login-UK-flag scollto" href="#"><img src="../img/UK-flag.png" alt="UK flag"></a>
+
+        <a class="login-lbl scrollto" href="../login/login.html" target="_blank">Login</a>
+        <a class="login-btn scrollto" href="../login/login.html" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <div class="head">
+      <form class="d-flex barra_ricerca" role="search">
+        <input class="form-control me-2 col_3" type="search" placeholder="Cerca la tua casa ideale" aria-label="Search"/>
+        <button class="btn bg-cc" type="submit">Cerca</button>
+      </form>
+
+      <div class="dropdown selezione">
+        <button class="btn bg-cc" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Filtro affitasi
+        </button>
+        <div class="dropdown-menu bg-cc" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item col" href="./vendita.html">Dal prezzo pi&ugrave; alto</a>
+          <a class="dropdown-item col" href="./vendita.html">Dal prezzo pi&ugrave; basso</a>
+          <a class="dropdown-item col" href="./vendita.html">In ordine alfabetico</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/963255741/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Villa bifamiliare largo dell&rsquo;Olgiata 15, Olgiata, Roma</h5>
+            <p class="card-text">
+              L&rsquo;immobile si sviluppa su tre livelli completamente fuori terra, circondata da un meraviglioso giardino con piscina e patio che lo rendono godibile per tutto l&rsquo;anno.
+              La villa, unica nel suo genere, &egrave; composta da un corpo centrale, una piccola corte ed una torretta, dove troviamo una zona notte al piano terra ed al piano superiore una zona benessere con vasca jacuzzi da dove possiamo godere di una vista a 360 gradi su tutta la propriet&agrave;.
+              Una corte unica nel suo genere da accesso nell&rsquo;abitazione principale dove ci accoglie una zona ingresso affacciata su un giardino d&rsquo;inverno , un salone triplo con un grande camino e ampie vetrate che si affacciano nel verde, la zona pranzo ed una cucina abitabile.
+              La zona notte &egrave; composta da tre suite ognuna con porta finestra sul giardino. Il basement luminoso &egrave; completamente fuori terra con accesso indipendente dal giardino, un secondo salone con camino, cucina, studio, due camere, due bagni, lavanderia, cantina per i vini e palestra.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 7000/mese</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1200052370/cover-m-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Palazzo - Edificio via Tagliamento 39, Trieste - Copped&egrave;, Roma</h5>
+            <p class="card-text">
+              Prestigioso villino indipendente sviluppato su quattro piani fuori terra, oltre un piano seminterrato per una superficie di circa 600 Mq. Si accede all&rsquo;immobile tramite due passi carrabili, uno da via Tagliamento e l&rsquo;altro da via Clitunno. 
+              L&rsquo;immobile beneficia di una grande terrazza panoramica di oltre 120 Mq che pu&ograve; essere attrezzata per eventi e meeting aziendali, oltre che di balconi e superficie esterna che circonda l&rsquo;edificio e dove &egrave; possibile parcheggiare 4 auto.
+              I collegamenti verticali sono assicurati da un ascensore ed un vano scala e la distribuzione interna &egrave; attualmente caratterizzata da stanze, ma la pianta flessibile permette la creazione di open space qualora l&rsquo;utilizzatore lo necessitasse.
+              L&rsquo;immobile, nelle immediate vicinanze di Villa Ada, &egrave; ubicato nel quartiere Trieste, in un contesto di pregio contraddistinto da edificazioni dei primi del &rsquo;900.
+              La zona &egrave; caratterizzata da insediamenti di tipo misto: edifici sedi di studi professionali, societ&agrave; multinazionali e abitazioni.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 5000/mese</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1185957138/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Villa unifamiliare piazza del Popolo, Piazza del Popolo, Roma</h5>
+            <p class="card-text">
+              mq 300 oltre terrazzo mq 150 e giardino privato mq 300
+              due posti auto scoperti
+               Piano terra:
+              ingresso, salone con camino uscita al giardino o terrazza, sala da pranzo affrescata con apertura sul giardino, cucina completa e accessoriata con ingresso indipendente, bagno ospiti.
+              Primo piano :
+              camera padronale con bagno en suite (doccia e vasca) con apertura su grande terrazza.
+              Seconda camera matrimoniale (con letti divisibili )e bagno con doccia en suite
+              grande terrazza
+              soppalco mansarda con tre letti e bagno con doccia
+              Piano Secondo:
+              camera matrimoniale con letti divisibili con apertura su terrazza
+              bagno con doccia en suite e terrazza
+              Lavanderia con lavatrice e asciugatrice.
+              La casa &egrave; tutta condizionata.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 3500/mese </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1154368024/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Villa unifamiliare via Odoardo Beccari, San Saba - Caracalla, Roma</h5>
+            <p class="card-text">
+              Villa in vendita San Saba - Aventino, con vista sulle Mura Aureliane, sviluppata su quattro livelli e circondata da splendido giardino privato di circa 600 mq.
+              L&rsquo;unit&agrave; immobiliare, da ristrutturare, unica nel suo genere per la presenza di grandi e luminosi ambienti &egrave; cos&igrave; composta: PT ingresso, soggiorno, camera, studio, bagno e patio; tramite una prestigiosa scala centrale si accede al 1&deg; Piano caratterizzato da tre camere da letto, studio, doppi servizi e terrazza panoramica;il 2&deg; Secondo piano &egrave; composto da un ampio locale, completamente ristrutturato nel 2015.
+              Al piano S1 invece troviamo il secondo ingresso, salone, grande cucina abitabile, tre camere da letto e servizio.
+              La villa in vendita San Saba- Aventino costruita inizi anni 50 dispone di pavimentazione in marmi pregiati, grate alle finestre, termosifoni in ghisa e da un ascensore rivestito in legno.
+              Completano la propriet&agrave; un posto auto e box doppio.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 5000/mese </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/668575529/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Appartamento viale del Museo Borghese, Parioli, Roma</h5>
+            <p class="card-text">
+              Villa Borghese, Splendido Appartamento completamente arredato di 380 mq Immerso nel verde con terrazza di 200 mq, composto da ingresso soggiorno con bellissima terrazza, salottino della televisione, camera da pranzo, 3 camere da letto con 3 bagni e spogliatoi, zona di servizio con cucina, appartamento di servizio composto da 2 stanze, cucina e bagno. 
+              Volendo si pu&ograve; aggiungere un altro appartamento composto da soggiorno con cucina, camera con spogliatoio, bagno e lavanderia.
+              Appartamento splendidamente arredato con rifiniture molto accurate. 
+              Posto macchina.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 14000/mese </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1232620784/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Appartamento viale Regina Margherita, Salario - Porta Pia, Roma</h5>
+            <p class="card-text">
+              Nella parte pi&ugrave; bella di Viale Regina Margherita adiacente ai villini d’epoca nella zona di Villa Torlonia, Copped&egrave; e Via dei Villini proponiamo un elegante appartamento sito al secondo piano con ascensore di un palazzo d’epoca dei primi del 900
+              L’appartamento di circa 380 mq. + una terrazza di circa 25 mq &egrave; cos&igrave; composto: ingresso, galleria, ampio salone di circa 50 mq. dal quale si accede ad una terrazza nel verde, ampio studio ed una grande sala da pranzo, cucina abitabile, lavanderia con soppalco, tre camere da letto con 3 bagni ensuite, bagno ospiti, ampio corridoio con armadiature e tre ingressi. 
+              Completano la propriet&agrave; una dependence all’ultimo piano formata da 1 camera con bagno ed 1 posto auto nel garage condominiale.
+              L’appartamento ha il grande fascino di avere soffitti cassettonati, porte affrescate dell’epoca, nel salone troviamo un grande camino del’600, pavimenti in parquet, il tutto abbinato ad ampie finestre moderne, aria condizionata e quindi con la possibilit&agrave; di poter unire un arredamento moderno all’ antico.
+              Il riscaldamento &egrave; centralizzato a consumo.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 7500/mese </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1222699026/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Villa bifamiliare largo dell&rsquo;Olgiata 15, Olgiata, Roma</h5>
+            <p class="card-text">
+              Bellissima villa bifamiliare su 3 piani pi&ugrave; mansarda, ristrutturata e arredata, al piano terra salone triplo di rappresentanza, studio, bagno ospiti, 1 camera con bagno, cucina.
+              Al primo piano 2 camere, 2 bagni, terrazza, mansarda con camera eq bagno. Al seminterrato, completamente sbancato e luminoso (&egrave; un piano terra) , 3 camere, 3 bagni, cucina. 
+              salone con camino, lavanderia, ripostigli.
+              Garage
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 2500/mese </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1223298192/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Appartamento via Flaminia, Flaminio, Roma</h5>
+            <p class="card-text">
+              In un palazzo d&rsquo;epoca tra i pi&ugrave; belli di Roma, la Christie&rsquo;s International Real Estate Rome Exclusive propone in affitto , al 4&deg; piano, uno splendido ufficio di 335 metri quadri a pochi passi da Valle Giulia, villa Borghese, zona ricca di ville, musei, gallerie d&rsquo;arte ed accademie di paesi stranieri e Piazza del Popolo.
+              La disposizione attuale presenta un ampio ingresso con finestra, cinque grandi stanze con bellissimi affacci, un&rsquo;ulteriore ambiente, utilizzato come segreteria, con affaccio sul verde della gradevole e curata corte interna al palazzo; una scala in legno, nel corridoio, permette l&rsquo;accesso alla zona superiore in cui si trovano due grandi e luminose stanze con un bagno ed un archivio.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 2000/mese</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1217418864/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Palazzo - Edificio via Salaria 1377, Settebagni, Roma</h5>
+            <p class="card-text">
+              Signorile edificio cielo terra sviluppato su quattro piani fuori terra che ospitano gli uffici. Completa la propriet&agrave; un cortile esterno di circa 1.200 mq dove &egrave; possibile parcheggiare fino a circa 30 auto, oltre che due posti auto coperti e uno spazio esterno perimetrale.
+              I collegamenti verticali sono assicurati da due ascensori, la pianta regolare garantisce una buona fruibilit&agrave; degli spazi, mentre le facciate vetrate aumentano la luminosit&agrave; degli ambienti interni.
+              Ubicato nel quadrante Nord della citt&agrave;, l&rsquo;immobile beneficia di una posizione privilegiata a ridosso del Grande Raccordo Anulare e lungo l’importante arteria di collegamento stradale di Via Salaria che consentono un rapido accesso alla rete autostradale (A1 Roma-Milano, Roma-Napoli, Roma L’Aquila) e agli aeroporti internazionali di Fiumicino e Ciampino. L’area &egrave; servita dai mezzi pubblici di superficie, a 250 mt dall&rsquo;immobile la linea Atac consente il raggiungimento della stazione Tiburtina; la linea ferroviaria FL1 fermata Settebagni a 500 mt. dall’immobile consente consente il collegamento diretto con l’aeroporto internazionale di Fiumicino.
+            </p>
+            <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 4000/mese</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!--<div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="https://pwm.im-cdn.it/image/1154368024/xxs-c.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem"/>
+     
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Villa unifamiliare via Odoardo Beccari, San Saba - Caracalla, Roma</h5>
+              <p class="card-text">
+                Villa in vendita San Saba - Aventino, con vista sulle Mura Aureliane, sviluppata su quattro livelli e circondata da splendido giardino privato di circa 600 mq. L&rsquo;unit&agrave; immobiliare, da ristrutturare, unica nel suo genere per la presenza di grandi e luminosi ambienti &egrave; cos&igrave; composta: PT ingresso, soggiorno, camera, studio, bagno e patio; tramite una prestigiosa scala centrale si accede al 1&deg; Piano caratterizzato da tre camere da letto, studio, doppi servizi e terrazza panoramica;
+              </p>
+              <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 9500/mese</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>-->     
+              
+              
+            
+    <div class="card mb-3 color_2" style="max-width: 100rem; margin: 1rem">
+      <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="https://pwm.im-cdn.it/image/1239139100/xxl.jpg" class="card-img" alt="..." style="width: 20rem; align-items: center; margin: 2rem" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Attico viale Cortina d&rsquo;Ampezzo, Cortina d&rsquo;Ampezzo, Roma</h5>
+              <p class="card-text">
+                Nella parte alta di viale Cortina d&rsquo;Ampezzo, a ridosso del centro commerciale e dell&rsquo;Istituto Calasanzio la Engel & Völkers propone la locazione di uno splendido attico e superattico panoramico.
+                All&rsquo;immobile si accede tramite ascensore che arriva direttamente all&rsquo;interno dell&rsquo;appartamento; all’entrata si trova un ingresso luminoso, dotato di armadio per ospiti, sulla destra si sviluppa il soggiorno, illuminato dalla luce di tre ampie vetrate, mentre sulla sinistra si trova la sala da pranzo; da quest’ultima si accede ad una vasta terrazza vivibile che diventa un giardino d’inverno mediante un sistema di isolamento termico.
+                Sia il soggiorno che la camera da pranzo sono arricchite da due splendidi caminetti in pietra.
+                Al piano inferiore si trovano inoltre la grande cucina abitabile, la stanza ed il bagno di servizio ed un bagno ospiti.
+                Al piano superiore, a cui si accede anche tramite un ascensore interno, si trovano l&rsquo;appartamento padronale, composto da una vasta camera da letto, un bagno ed una grande cabina armadio, altre due camere ed un bagno.
+                L&rsquo;appartamento &egrave; completamente climatizzato, &egrave; dotato di un sofisticato sistema di allarme e di un sistema di protezione dalle intemperie dei vetri del soggiorno: inoltre tutti e quattro i bagni sono stati recentemente ristrutturati.
+              </p>
+              <a href="../houses/house.html" target="_blank" class="btn bg-cc">&euro; 4500/mese</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+ 
+  
+    <div class="footer">
+      
+    </div>
+  
+  
+  
+  </body>
+</html>
