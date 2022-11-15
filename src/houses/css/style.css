@@ -7,6 +7,10 @@
     vertical-align: inherit;
 }
 
+body {
+    text-align: unset;
+}
+
 div.head {
     background: #0d6efd;
     height: 5rem;
@@ -229,4 +233,13 @@ span {
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     align-items: center;
+}
+
+.mapouter {
+    display: inline-block !important;
+    margin-right: 2rem !important;
+}
+
+img {
+    vertical-align: unset !important;
 }

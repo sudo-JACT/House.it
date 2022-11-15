@@ -9,27 +9,47 @@
 
 body.c {
     text-align: center;
-    background: #121212;
+    background: #00111a;
     align-items: center;
     font-family: "Poppins", sans-serif;
     overflow-wrap: break-word;
-    color: #ffffff;
+    color: white;
 }
 
 div.head {
-    background: #2b6481;
+    /*background: #003049;*/
+    background: #00111a;
     height: 20rem;
     margin: 0;
 }
 
 .color_ {
-    background: #121212;
+    background: #00111a;
+    border: 2px solid #003049;
+}
+
+.color_:hover {
+    background: #00111a;
+    border: 2px solid#003049;
+}
+
+.color_:enabled {
+    background: #00111a;
+    border: 2px solid #003049;
 }
 
 .color_2 {
-    background: #121212;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    background: #00111a;
+    border: 2px solid #003049;
+    color: white;
+}
+
+.color_2:hover {
+    box-shadow: 5px 5px 5px 5px #003049;
+}
+
+.showd:hover {
+    box-shadow: 1px 1px 1px 1px #994f00;
 }
 
 .zip {
@@ -37,7 +57,8 @@ div.head {
 }
 
 section.footer {
-    background: #2b6481;
+    /*background: #003049;*/
+    background: #00111a;
     height: 25rem;
     margin: 0;
     color: white;
@@ -71,7 +92,8 @@ div.F {
 
 div.house {
     display: inline-block;
-    background: #2b6481;
+    /*background: #003049;*/
+    background: #00111a;
     padding: 2rem;
     border-radius: 1rem;
     margin-top: 1rem;
@@ -115,12 +137,12 @@ div.b>a:active {
 
 div.offerta {
     /*background: #ff4000;*/
-    background: #c12400;
+    background: #994f00;
     text-align: center;
     color: white;
     display: inline-block;
     padding: 1rem;
-    margin-top: 1rem;
+    margin: 1rem;
     border-radius: 1rem;
 }
 
@@ -148,7 +170,8 @@ div.offerta {
 }
 
 .citys {
-    background: #2b6481;
+    /*background: #003049;*/
+    background: #00111a;
     position: relative;
     display: inline-block;
 }
@@ -247,32 +270,32 @@ div.offerta {
 }
 
 .bg-c {
-    background-color: #c12400;
+    background-color: #994f00;
     color: white;
 }
 
 .bg-cc {
-    background-color: #c12400;
+    background-color: #994f00;
     color: white;
 }
 
 .bg-cc:hover {
-    background-color: #c12400;
+    background-color: #994f00;
     color: white;
 }
 
 .bg-cc:active {
-    background-color: #c12400;
+    background-color: #994f00;
     color: white;
 }
 
 .bg-cc:disabled {
-    background-color: #c12400;
+    background-color: #994f00;
     color: white;
 }
 
 .bg-cc:enabled {
-    background-color: #c12400;
+    background-color: #994f00;
     color: white;
 }
 
@@ -313,7 +336,7 @@ div.offerta {
 */
 
 #header {
-    background: #c12400;
+    background: #00111a;
     padding: 15px;
 }
 
@@ -373,7 +396,7 @@ a {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: #2b6481;
+    background-color: #003049;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out;
@@ -455,7 +478,7 @@ a {
 }
 
 .login-btn:hover {
-    background: #c12400;
+    background: #F58800;
     color: #ffffff;
 }
 
