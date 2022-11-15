@@ -300,23 +300,27 @@ div.offerta {
 }
 
 .center_house {
-    position: relative;
+    /*position: relative;
     top: 30%;
     left: 20%;
-    transform: translate(-50%, -50%);
-    width: 20rem;
+    transform: translate(-50%, -50%);*/
+    /*width: 700px;*/
+    margin: auto;
     display: inline-flex;
-    margin: 0;
+    /*align-items: 50px;
+    justify-content: 50px;*/
 }
 
 .center_HO {
-    position: relative;
+    /*position: relative;
     top: 20.5%;
     left: -3.5%;
     transform: translate(-50%, -50%);
-    width: 10rem;
+    width: 10rem;*/
     display: inline-flex;
-    margin: 0;
+    margin: auto;
+    /*align-items: baseline;
+    justify-content: baseline;*/
 }
 
 .center_HO>h1 {
@@ -478,7 +482,7 @@ a {
 }
 
 .login-btn:hover {
-    background: #F58800;
+    background: #00111a;
     color: #ffffff;
 }
 
