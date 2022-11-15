@@ -1,14 +1,19 @@
 div.head {
-    background: #0d6efd;
+    background: #00111a;
     height: 6rem;
     margin: 0;
 }
 
 div.footer {
-    background: #0d6efd;
+    background: #00111a;
     height: 3rem;
     color: white;
     text-align: left;
+}
+
+.rrr {
+    max-width: 100%;
+    margin: 1rem
 }
 
 div.footer>div.foo {
