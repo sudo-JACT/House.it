@@ -12,13 +12,13 @@ body {
 }
 
 div.head {
-    background: #0d6efd;
+    background: #00111a;
     height: 5rem;
     margin: 0;
 }
 
 div.footer {
-    background: #0d6efd;
+    background: #00111a;
     height: 20rem;
     color: white;
     text-align: left;
@@ -64,7 +64,7 @@ div.login {
     top: 100%;
     left: 50%;
     transform: translate(-50%, 300%);*/
-    background: #0d6efd;
+    background: #00111a;
     height: 0%;
     width: 100%;
     margin: 0;
