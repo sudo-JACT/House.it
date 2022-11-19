@@ -1,5 +1,8 @@
-# ***PROGETTO SCOLASTICO***
-Frontend di un sito immobiliare\
+# ***House.it***
+## PROGETTO SCOLASTICO
+***Consegna:***
+* Creare il frontend ti un sito immobiliare
+
 ***Sviluppatori***:
 * Filieri Davide
 * Ligori Carlo
